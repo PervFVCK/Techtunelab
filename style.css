@@ -206,3 +206,76 @@ img {
   }
 }
 
+/* --- TRENDING SECTION AT BOTTOM --- */
+.bottom-trending {
+  background: #fff;
+  margin: 60px auto;
+  padding: 40px 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.bottom-trending .container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.trending-block {
+  flex: 1 1 250px;
+  min-width: 220px;
+}
+
+.trending-block h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #333;
+  border-bottom: 2px solid #0078ff;
+  padding-bottom: 5px;
+}
+
+.trending-block ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.trending-block ul li {
+  margin: 8px 0;
+}
+
+.trending-block ul li a {
+  text-decoration: none;
+  color: #555;
+  transition: color 0.2s ease;
+}
+
+.trending-block ul li a:hover {
+  color: #0078ff;
+}
+
+/* Sponsored Ad Box */
+.bottom-trending .ad-box {
+  width: 100%;
+  height: 150px;
+  background: #f4f4f4;
+  border: 1px dashed #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  color: #777;
+  border-radius: 10px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .bottom-trending .container {
+    flex-direction: column;
+  }
+
+  .trending-block {
+    width: 100%;
+  }
+}

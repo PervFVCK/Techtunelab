@@ -3,89 +3,103 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="TechTunnel delivers the latest tech news, gadget reviews, and innovation updates from around the world." />
-  <title>TechTunnel | Your Gateway to Modern Tech</title>
+  <meta name="description" content="TechTunnel brings you the latest tech news, unbiased product reviews, and in-depth insights into modern innovations." />
+  <title>TechTunnel | Tech News, Reviews & Insights</title>
   <link rel="stylesheet" href="style.css" />
-  <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-XXXXXXX"
-     crossorigin="anonymous"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
 </head>
 
 <body>
-  <header class="navbar">
-    <div class="logo">TechTunnel</div>
-    <nav>
-      <a href="#">Home</a>
-      <a href="#">News</a>
-      <a href="#">Reviews</a>
-      <a href="#">Guides</a>
-      <a href="#">About</a>
-    </nav>
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-container">
+      <div class="logo">TechTunnel</div>
+      <nav class="nav">
+        <a href="#">Home</a>
+        <a href="#">News</a>
+        <a href="#">Reviews</a>
+        <a href="#">Guides</a>
+        <a href="#">About</a>
+      </nav>
+    </div>
   </header>
 
+  <!-- HERO SECTION -->
   <section class="hero">
-    <div class="hero-text">
-      <h1>The Future of Technology Starts Here</h1>
-      <p>Latest trends, reviews, and insights that shape tomorrow's tech world.</p>
-      <a href="#" class="btn">Explore Reviews</a>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1>The Future of Technology Starts Here</h1>
+        <p>Get the latest trends, product reviews, and deep insights from the world of tech — all in one place.</p>
+        <a href="#" class="btn-primary">Explore Reviews</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://source.unsplash.com/600x400/?technology,ai" alt="Tech hero image">
+      </div>
     </div>
   </section>
 
-  <main class="main-content">
-    <section class="featured">
-      <h2>Featured Articles</h2>
-      <div class="grid">
+  <!-- FEATURED SECTION -->
+  <section class="section">
+    <div class="container">
+      <h2 class="section-title">Featured Articles</h2>
+      <div class="grid featured-grid">
         <article class="card">
-          <img src="https://source.unsplash.com/600x400/?laptop,tech" alt="Tech">
+          <img src="https://source.unsplash.com/400x250/?macbook,tech" alt="Apple M4 chip">
           <div class="card-body">
-            <h3>Apple's Next Big Leap: M4 Chip Details</h3>
-            <p>Apple is redefining computing again. Here's everything we know about the new M4 chip.</p>
+            <h3>Apple’s Next Big Leap: The M4 Revolution</h3>
+            <p>Apple’s M4 chip is redefining performance and battery life — here’s our full breakdown.</p>
             <a href="#">Read More →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://source.unsplash.com/600x400/?ai,robot" alt="AI">
+          <img src="https://source.unsplash.com/400x250/?ai,smartphone" alt="AI smartphones">
           <div class="card-body">
-            <h3>How AI is Transforming Smartphones in 2025</h3>
-            <p>Artificial intelligence is now a standard feature in every flagship phone. But what’s next?</p>
+            <h3>AI-Powered Phones: What to Expect in 2025</h3>
+            <p>AI isn’t just a feature anymore — it’s the heart of every new flagship device.</p>
             <a href="#">Read More →</a>
           </div>
         </article>
 
         <article class="card">
-          <img src="https://source.unsplash.com/600x400/?gaming,console" alt="Gaming">
+          <img src="https://source.unsplash.com/400x250/?gaming,console" alt="Gaming consoles">
           <div class="card-body">
-            <h3>PlayStation 6 vs Xbox Series Z</h3>
-            <p>The next-gen gaming battle is here — and both sides have surprises. Let’s compare.</p>
+            <h3>PlayStation 6 vs Xbox Series Z: The Showdown</h3>
+            <p>Next-gen consoles are here. Which one truly dominates the future of gaming?</p>
             <a href="#">Read More →</a>
           </div>
         </article>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section class="latest">
-      <h2>Latest News</h2>
-      <div class="grid">
+  <!-- LATEST NEWS -->
+  <section class="section light-bg">
+    <div class="container">
+      <h2 class="section-title">Latest News</h2>
+      <div class="grid latest-grid">
         <article class="mini-card">
-          <h3>Samsung’s Galaxy Glasses Launches in March 2025</h3>
-          <p>Samsung is ready to bring AR into everyday life. Early impressions are strong.</p>
+          <h3>Samsung’s Galaxy Glasses Coming This March</h3>
+          <p>Samsung’s AR revolution is closer than ever — blending reality with innovation.</p>
         </article>
         <article class="mini-card">
-          <h3>Google Unveils Gemini OS for Wearables</h3>
-          <p>A new unified system aims to make your smartwatch smarter than ever.</p>
+          <h3>Google Gemini OS: The Future of Wearables</h3>
+          <p>Google unveils its most intelligent wearable system yet — the Gemini experience.</p>
         </article>
         <article class="mini-card">
-          <h3>Tesla’s New Robotaxi Will Drive You to Work</h3>
-          <p>Elon Musk’s fully autonomous service is entering real-world testing.</p>
+          <h3>Tesla’s Robotaxi Ready for Public Roads</h3>
+          <p>Elon Musk confirms real-world testing begins — here’s what we know so far.</p>
         </article>
       </div>
-    </section>
-  </main>
+    </div>
+  </section>
 
-  <footer>
-    <p>© 2025 TechTunnel | All rights reserved.</p>
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container">
+      <p>© 2025 TechTunnel. All rights reserved.</p>
+    </div>
   </footer>
 
-  <script src="script.js"></script>
 </body>
-    </html>
+</html>

@@ -335,4 +335,13 @@ img {
     display: none;
   }
 }
-body { padding-bottom: 220px; }
+
+/* Fix footer not showing when sidebar is fixed */
+body {
+  padding-bottom: 200px; /* makes space for footer visibility */
+}
+
+.footer {
+  position: relative;
+  z-index: 2;
+}

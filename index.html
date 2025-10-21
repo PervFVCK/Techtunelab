@@ -21,78 +21,114 @@
         <a href="#">Guides</a>
         <a href="#">About</a>
       </nav>
+
+      <!-- SEARCH BAR -->
+      <div class="search-container">
+        <input type="text" placeholder="Search..." class="search-input">
+        <button class="search-btn">🔍</button>
+      </div>
     </div>
   </header>
 
-  <!-- HERO SECTION -->
-  <section class="hero">
-    <div class="container hero-content">
-      <div class="hero-text">
-        <h1>The Future of Technology Starts Here</h1>
-        <p>Get the latest trends, product reviews, and deep insights from the world of tech — all in one place.</p>
-        <a href="#" class="btn-primary">Explore Reviews</a>
-      </div>
-      <div class="hero-image">
-        <img src="https://source.unsplash.com/600x400/?technology,ai" alt="Tech hero image">
-      </div>
-    </div>
-  </section>
-
-  <!-- FEATURED SECTION -->
-  <section class="section">
-    <div class="container">
-      <h2 class="section-title">Featured Articles</h2>
-      <div class="grid featured-grid">
-        <article class="card">
-          <img src="https://source.unsplash.com/400x250/?macbook,tech" alt="Apple M4 chip">
-          <div class="card-body">
-            <h3>Apple’s Next Big Leap: The M4 Revolution</h3>
-            <p>Apple’s M4 chip is redefining performance and battery life — here’s our full breakdown.</p>
-            <a href="#">Read More →</a>
+  <!-- MAIN CONTENT + SIDEBAR WRAPPER -->
+  <div class="main-layout container">
+    <div class="main-content">
+      <!-- HERO SECTION -->
+      <section class="hero">
+        <div class="hero-content">
+          <div class="hero-text">
+            <h1>The Future of Technology Starts Here</h1>
+            <p>Get the latest trends, product reviews, and deep insights from the world of tech — all in one place.</p>
+            <a href="#" class="btn-primary">Explore Reviews</a>
           </div>
-        </article>
-
-        <article class="card">
-          <img src="https://source.unsplash.com/400x250/?ai,smartphone" alt="AI smartphones">
-          <div class="card-body">
-            <h3>AI-Powered Phones: What to Expect in 2025</h3>
-            <p>AI isn’t just a feature anymore — it’s the heart of every new flagship device.</p>
-            <a href="#">Read More →</a>
+          <div class="hero-image">
+            <img src="https://source.unsplash.com/600x400/?technology,ai" alt="Tech hero image">
           </div>
-        </article>
+        </div>
+      </section>
 
-        <article class="card">
-          <img src="https://source.unsplash.com/400x250/?gaming,console" alt="Gaming consoles">
-          <div class="card-body">
-            <h3>PlayStation 6 vs Xbox Series Z: The Showdown</h3>
-            <p>Next-gen consoles are here. Which one truly dominates the future of gaming?</p>
-            <a href="#">Read More →</a>
-          </div>
-        </article>
-      </div>
-    </div>
-  </section>
+      <!-- FEATURED SECTION -->
+      <section class="section">
+        <h2 class="section-title">Featured Articles</h2>
+        <div class="grid featured-grid">
+          <article class="card">
+            <img src="https://source.unsplash.com/400x250/?macbook,tech" alt="Apple M4 chip">
+            <div class="card-body">
+              <h3>Apple’s Next Big Leap: The M4 Revolution</h3>
+              <p>Apple’s M4 chip is redefining performance and battery life — here’s our full breakdown.</p>
+              <a href="#">Read More →</a>
+            </div>
+          </article>
 
-  <!-- LATEST NEWS -->
-  <section class="section light-bg">
-    <div class="container">
-      <h2 class="section-title">Latest News</h2>
-      <div class="grid latest-grid">
-        <article class="mini-card">
-          <h3>Samsung’s Galaxy Glasses Coming This March</h3>
-          <p>Samsung’s AR revolution is closer than ever — blending reality with innovation.</p>
-        </article>
-        <article class="mini-card">
-          <h3>Google Gemini OS: The Future of Wearables</h3>
-          <p>Google unveils its most intelligent wearable system yet — the Gemini experience.</p>
-        </article>
-        <article class="mini-card">
-          <h3>Tesla’s Robotaxi Ready for Public Roads</h3>
-          <p>Elon Musk confirms real-world testing begins — here’s what we know so far.</p>
-        </article>
-      </div>
+          <article class="card">
+            <img src="https://source.unsplash.com/400x250/?ai,smartphone" alt="AI smartphones">
+            <div class="card-body">
+              <h3>AI-Powered Phones: What to Expect in 2025</h3>
+              <p>AI isn’t just a feature anymore — it’s the heart of every new flagship device.</p>
+              <a href="#">Read More →</a>
+            </div>
+          </article>
+
+          <article class="card">
+            <img src="https://source.unsplash.com/400x250/?gaming,console" alt="Gaming consoles">
+            <div class="card-body">
+              <h3>PlayStation 6 vs Xbox Series Z: The Showdown</h3>
+              <p>Next-gen consoles are here. Which one truly dominates the future of gaming?</p>
+              <a href="#">Read More →</a>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- LATEST NEWS -->
+      <section class="section light-bg">
+        <h2 class="section-title">Latest News</h2>
+        <div class="grid latest-grid">
+          <article class="mini-card">
+            <h3>Samsung’s Galaxy Glasses Coming This March</h3>
+            <p>Samsung’s AR revolution is closer than ever — blending reality with innovation.</p>
+          </article>
+          <article class="mini-card">
+            <h3>Google Gemini OS: The Future of Wearables</h3>
+            <p>Google unveils its most intelligent wearable system yet — the Gemini experience.</p>
+          </article>
+          <article class="mini-card">
+            <h3>Tesla’s Robotaxi Ready for Public Roads</h3>
+            <p>Elon Musk confirms real-world testing begins — here’s what we know so far.</p>
+          </article>
+        </div>
+      </section>
     </div>
-  </section>
+
+    <!-- SIDEBAR -->
+    <aside class="sidebar">
+      <section class="sidebar-section">
+        <h3>Trending Articles</h3>
+        <ul>
+          <li><a href="#">iPhone 17 Leaks: What We Know So Far</a></li>
+          <li><a href="#">AI Chips Changing the Game in 2025</a></li>
+          <li><a href="#">Best Laptops for Students – 2025 Guide</a></li>
+          <li><a href="#">Samsung Galaxy Z Fold 7 Review</a></li>
+        </ul>
+      </section>
+
+      <section class="sidebar-section">
+        <h3>Categories</h3>
+        <ul>
+          <li><a href="#">Tech</a></li>
+          <li><a href="#">Gadgets</a></li>
+          <li><a href="#">AI</a></li>
+          <li><a href="#">Mobile</a></li>
+          <li><a href="#">Reviews</a></li>
+        </ul>
+      </section>
+
+      <section class="sidebar-section ad-space">
+        <h3>Sponsored</h3>
+        <div class="ad-box">Ad Space (300×250)</div>
+      </section>
+    </aside>
+  </div>
 
   <!-- FOOTER -->
   <footer class="footer">
@@ -102,4 +138,4 @@
   </footer>
 
 </body>
-</html>
+  </html>

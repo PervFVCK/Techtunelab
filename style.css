@@ -177,15 +177,27 @@ img {
   margin-bottom: 0.4rem;
 }
 
-/* FOOTER */
-.footer {
-  background: #ffffff;
-  border-top: 1px solid #eee;
-  padding: 1rem 0;
-  text-align: center;
-  font-size: 0.9rem;
-  color: #555;
+/* Ensure footer stays at bottom even on short pages */
+html, body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
 }
+
+.main-layout {
+  flex: 1;
+}
+
+.footer {
+  background: #0a0a0a;
+  color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+  font-size: 0.9rem;
+  margin-top: 40px;
+}
+
+
 
 /* RESPONSIVE */
 @media (max-width: 768px) {

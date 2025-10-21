@@ -205,3 +205,32 @@ img {
     gap: 1rem;
   }
 }
+
+/* TRENDING ARTICLES */
+.trending-section {
+  background: #fff;
+  border-top: 1px solid #eee;
+  padding: 3rem 0;
+}
+
+.trending-list {
+  list-style: none;
+  margin-top: 1rem;
+}
+
+.trending-list li {
+  margin-bottom: 0.8rem;
+  font-size: 1rem;
+}
+
+.trending-list a {
+  text-decoration: none;
+  color: #0073ff;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.trending-list a:hover {
+  color: #005fd4;
+  text-decoration: underline;
+  }
